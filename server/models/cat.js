@@ -9,4 +9,6 @@ const catSchema = new Schema(
         likes: Array,
     }
 );
-const Cat = mongoose.model("Cat", catSchema)
+const Cat = mongoose.model("Cat", catSchema);
+
+module.exports = Cat;
